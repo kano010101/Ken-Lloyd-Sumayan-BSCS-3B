@@ -36,11 +36,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                href="https://unitedcompany01.github.io/landing-site/index.html"
-                >Home(group)</a
-              >
+              <a class="nav-link active" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -63,16 +59,66 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
-      <h1>Welcome to Wadmall</h1>
-      <p>Your trusted partner for quality products and services.</p>
-      <a
-        href="#contact"
-        class="btn"
-        data-bs-toggle="modal"
-        data-bs-target="#infoModal"
-        >Get Started</a
-      >
+    <section id="hero" class="hero-section">
+      <div class="container text-center">
+        <div class="hero-content">
+          <!-- Ensure the image is responsive -->
+          <img
+            src="images/poster.jpg"
+            alt="Hero Poster"
+            class="img-fluid rounded"
+          />
+          <h1 class="display-3 text-white mt-4">Welcome to Wadmall</h1>
+          <p class="lead text-white">
+            Offering top-tier products and services tailored to your needs. Join
+            us in shaping the future.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission and Vision Section -->
+    <section id="mission-vision" class="container py-5">
+      <h2 class="section-title text-center">Mission & Vision</h2>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <!-- col-12 for small screens, col-md-6 for larger screens -->
+          <h3 class="text-center">Our Mission</h3>
+          <p>
+            At Wadmall, our mission is to deliver exceptional products and
+            services that empower individuals and businesses to succeed. We
+            focus on innovation, quality, and customer satisfaction.
+          </p>
+        </div>
+        <div class="col-12 col-md-6">
+          <!-- col-12 for small screens, col-md-6 for larger screens -->
+          <h3 class="text-center">Our Vision</h3>
+          <p>
+            Our vision is to become a global leader in providing top-notch
+            technology and solutions that enhance the quality of life for people
+            around the world. We aim to set new standards of excellence in
+            everything we do.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- YouTube Video Section -->
+    <section id="promo-video" class="container py-5">
+      <h2 class="section-title text-center">Our Promotional Video</h2>
+      <div class="text-center">
+        <!-- Replace the src URL with your own YouTube video URL -->
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/amFc57u-Njs?si=yCzzlaU18bj6flUJ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
     </section>
 
     <!-- About Section -->
@@ -200,17 +246,6 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container py-5">
-      <h2 class="section-title">Contact Us</h2>
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
     </section>
 
     <!-- Footer -->
